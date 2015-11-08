@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="bin\via.exe"/>
+    <OBJFILES value="out\via.obj out\UnitMain.obj out\UnitAbout.obj out\UnitHelp.obj 
+      out\UnitLog.obj out\UnitImport.obj out\UnitOptions.obj 
+      out\UnitNewImgProject.obj out\UnitNewVidProject.obj out\UnitMerge.obj 
+      out\UnitSelectMPEG7.obj out\UnitFormWait.obj out\query_frame.obj 
+      out\message.obj out\mme.obj out\m2v_vfapi.obj out\mme_project.obj 
+      out\timecode.obj out\GraphicEx.obj out\GraphicStrings.obj out\JPG.obj 
+      out\GraphicCompression.obj out\GraphicColor.obj out\MZLib.obj 
+      out\UnitFormImage.obj out\UnitFormVideo.obj out\UnitUtils.obj 
+      out\UnitPoints.obj"/>
+    <RESFILES value="via.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) UnitMain.dfm UnitAbout.dfm UnitHelp.dfm UnitLog.dfm 
+      UnitImport.dfm UnitOptions.dfm UnitNewImgProject.dfm UnitNewVidProject.dfm 
+      UnitMerge.dfm UnitSelectMPEG7.dfm UnitFormWait.dfm UnitFormImage.dfm 
+      UnitFormVideo.dfm UnitPoints.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="GR32_CB6.lib vclx.lib inet.lib xmlrtl.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib xmlrtl.lib inet.lib vclx.lib GR32_CB6.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi vcldb.bpi vclx.bpi bcbsmp.bpi vclie.bpi 
+      xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi bcbie.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;GraphicEx"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="via.cpp"/>
+    <INCLUDEPATH value="$(DXVCL)\Library\CBuilder6;GraphicEx;$(BCB)\Components\graphics32;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(DXVCL)\Library\CBuilder6;GraphicEx;$(BCB)\Projects\Bpl;$(BCB)\Components\graphics32;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(DXVCL)\Library\CBuilder6 -IGraphicEx -I$(BCB)\Components\graphics32 
+      -I$(BCB)\Projects -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl.csm -Vx -Ve -X- -a4 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-N2out -N0out -$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-Iout -D&quot;&quot; -V4.2 -Sc:0x4000 -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="via.res" FORMNAME="" UNITNAME="via.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="via.cpp" FORMNAME="" UNITNAME="via" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitMain.cpp" FORMNAME="FormMain" UNITNAME="UnitMain" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="via.todo" FORMNAME="" UNITNAME="via" CONTAINERID="ToDo" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitAbout.cpp" FORMNAME="FormAbout" UNITNAME="UnitAbout" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitHelp.cpp" FORMNAME="FormHelp" UNITNAME="UnitHelp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitLog.cpp" FORMNAME="FormLog" UNITNAME="UnitLog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitImport.cpp" FORMNAME="FormImport" UNITNAME="UnitImport" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitOptions.cpp" FORMNAME="FormOptions" UNITNAME="UnitOptions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitNewImgProject.cpp" FORMNAME="FormNewImg" UNITNAME="UnitNewImgProject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitNewVidProject.cpp" FORMNAME="FormNewVid" UNITNAME="UnitNewVidProject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitMerge.cpp" FORMNAME="FormMerge" UNITNAME="UnitMerge" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitSelectMPEG7.cpp" FORMNAME="FormExtractMPEG7" UNITNAME="UnitSelectMPEG7" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitFormWait.cpp" FORMNAME="FormWait" UNITNAME="UnitFormWait" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="query_frame.cpp" FORMNAME="" UNITNAME="query_frame.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="message.cpp" FORMNAME="" UNITNAME="message.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mme.cpp" FORMNAME="" UNITNAME="mme.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m2v_vfapi.cpp" FORMNAME="" UNITNAME="m2v_vfapi.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mme_project.cpp" FORMNAME="" UNITNAME="mme_project.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="timecode.cpp" FORMNAME="" UNITNAME="timecode.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\GraphicEx.pas" FORMNAME="" UNITNAME="GraphicEx.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\GraphicStrings.pas" FORMNAME="" UNITNAME="GraphicStrings.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\JPG.pas" FORMNAME="" UNITNAME="JPG.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\GraphicCompression.pas" FORMNAME="" UNITNAME="GraphicCompression.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\GraphicColor.pas" FORMNAME="" UNITNAME="GraphicColor.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GraphicEx\MZLib.pas" FORMNAME="" UNITNAME="MZLib.pas" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitFormImage.cpp" FORMNAME="FormImage" UNITNAME="UnitFormImage" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitFormVideo.cpp" FORMNAME="FormVideo" UNITNAME="UnitFormVideo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitUtils.cpp" FORMNAME="" UNITNAME="UnitUtils" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UnitPoints.cpp" FORMNAME="FormPoints" UNITNAME="UnitPoints" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=1
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1032
+CodePage=1253
+
+[Version Info Keys]
+CompanyName=ITI-CERTH
+FileDescription=
+FileVersion=1.1.0.0
+InternalName=VIA
+LegalCopyright=http://mklab.iti.gr
+LegalTrademarks=
+OriginalFilename=via.exe
+ProductName=VIA
+ProductVersion=1.0.0.0
+
+[Excluded Packages]
+C:\Program Files\Borland\CBuilder6\Projects\BPL\JamShellBCB6.bpl=ShellBrowser Components by JAM Software
+c:\program files\borland\cbuilder6\Projects\Bpl\XMLPartner_PD61.bpl=TurboPower XMLPartner Professional Designtime package - VCL61
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxLayoutControlcxEditAdaptersC6.bpl=ExpressLayoutControl Adapters for ExpressEditors Library 5 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxMasterViewC6.bpl=ExpressMasterView by Developer Express
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxtrmdC6.bpl=ExpressTreePrintedDataSet by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxOrgCC6.bpl=ExpressOrgChat by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxFlowChartC6.bpl=ExpressFlowChart by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxPSCoreC6.bpl=ExpressPrinting System by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSLnksC6.bpl=ExpressPrinting System ReportLinks (Standard) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxCommonC6.bpl=ExpressPrinting System Cross Platform Library by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxPCProdC6.bpl=ExpressPrinting System ContainerProducer for ExpressPageControl 2 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxPivotGridLnkC6.bpl=ExpressPrinting System ReportLink for ExpressPivotGrid by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxScheduler2LnkC6.bpl=ExpressPrinting System ReportLink for ExpressScheduler 2 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxSSLnkC6.bpl=ExpressPrinting System ReportLink for ExpressSpreadSheet by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSTeeChartC6.bpl=ExpressPrinting System ReportLink for TeeChart by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxOCLnkC6.bpl=ExpressPrinting System ReportLink for ExpressOrgChart by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxDBTVLnkC6.bpl=ExpressPrinting System ReportLink for ExpressDBTree by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxFCLnkC6.bpl=ExpressPrinting System ReportLink for ExpressFlowChart by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxLCLnkC6.bpl=ExpressPrinting System ReportLink for ExpressLayoutControl by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxMVLnkC6.bpl=ExpressPrinting System ReportLink for ExpressMasterView by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSdxDBOCLnkC6.bpl=ExpressPrinting System ReportLink for ExpressDBOrgChart by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxExtCommonC6.bpl=ExpressPrinting System Extended Cross Platform Library by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSPrVwAdvC6.bpl=ExpressPrinting System Advanced PreviewWindow by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPSDBTeeChartC6.bpl=ExpressPrinting System ReportLink for DBTeeChart by Developer Express Inc.
+C:\Program Files\Borland\CBuilder6\Projects\BPL\TMSUnicodeDEC6.bpl=TMS Unicode Component Pack
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxCoreC6.bpl=ExpressCoreLibrary by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxLibraryVCLC6.bpl=Express Cross Platform Library (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxPageControlVCLC6.bpl=Express Cross Platform PageControl (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxsbC6.bpl=ExpressSideBar by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxEditorsVCLC6.bpl=ExpressEditors Library 5 (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxExtEditorsVCLC6.bpl=ExpressExtendedEditors Library 5 (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxBarEditItemC6.bpl=ExpressBars cxEditor item by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxBarC6.bpl=ExpressBars by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxBarDBNavC6.bpl=ExpressBars DBNavigator by Developer Expess Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxBarExtDBItemsC6.bpl=ExpressBars Extended DB Items by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxBarExtItemsC6.bpl=ExpressBars Extended Items by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxRibbonC6.bpl=ExpressBars Ribbon controls by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxGridC6.bpl=ExpressQuantumGrid 6 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxSchedulerVCLC6.bpl=ExpressScheduler 2 (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxTreeListVCLC6.bpl=ExpressQuantumTreeList 4 (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxVerticalGridVCLC6.bpl=ExpressVerticalGrid (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxPivotGridC6.bpl=ExpressPivotGrid (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxmdsC6.bpl=ExpressMemData by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dclcxSpreadSheetVCLC6.bpl=ExpressSpreadSheet (VCL Edition) by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxDockingC6.bpl=ExpressDocking Library by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxNavBarC6.bpl=ExpressNavBar by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxLayoutControlC6.bpl=ExpressLayout Control by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxdbtrC6.bpl=ExpressDBTree by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dcldxDBOrC6.bpl=ExpressDBOrgChat by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxGrid6LnkC6.bpl=ExpressPrinting System ReportLink for ExpressQuantumGrid 6 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxTLLnkC6.bpl=ExpressPrinting System ReportLink for ExpressQuantumTreeList 4 by Developer Express Inc.
+C:\Program Files\Developer Express.VCL\Library\CBuilder6\dxPScxVGridLnkC6.bpl=ExpressPrinting System ReportLink for ExpressVerticalGrid by Developer Express Inc.
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=GraphicEx;$(BCB)\Components\graphics32;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Program Files\Borland\Components\jcl\source\common;GraphicEx;$(BCB)\Components\graphics32;$(DXVCL)\Library\CBuilder6;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=GraphicEx;$(BCB)\Projects\Bpl;$(BCB)\Components\graphics32;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item1=GraphicEx;$(BCB)\Projects\Bpl;$(BCB)\Components\GraphicEx;$(BCB)\Components\graphics32;$(DXVCL)\Library\CBuilder6;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=out
+
+[HistoryLists\hlFinalOutputDir]
+Count=1
+Item0=bin\
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,15 @@
+This is the INSTALL file for source code package of 
+Video Image Annotation Tool (VIA)
+
+Installation
+-----------------------------------------------------------------
+Install graphics32 inside the IDE
+Graphics32 image library (http://graphics32.org)
+
+
+-----------------------------------------------------------------
+VIA homepage is at http://mklab.iti.gr/via
+
+VIA is GPL licensed, see the file 'gpl-3.0.txt' for the licence 
+conditions.
+-----------------------------------------------------------------

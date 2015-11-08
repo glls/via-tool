@@ -1,0 +1,23 @@
+{TODO : check DateTime  routines and formating}
+{TODO : check XML tags (lowercase)}
+
+{DONE : load descriptors from text file}
+{TODO : fix project load/save with polygons}
+{TODO 1 -cImage : IMG: MPEG7 output}
+{TODO 1 -cImage : IMG: merge regions}
+{DONE 1 -cImage : IMG: segmented annotation}
+{DONE 1 -cImage : IMG: freeform annotation}
+{DONE : INI file (configuration)}
+{TODO : video window size}
+{TODO : compress project file?}
+
+{TODO 1 -cimage : region merging}
+{TODO -cimage : segmentation}
+
+
+{DONE -cannotation :
+load/save
+project, concepts}
+
+{TODO : AVI VFAPI plugin}
+{TODO : remove resource.h and callback.c}

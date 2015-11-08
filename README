@@ -1,0 +1,25 @@
+This is the README file for source code package of 
+Video Image Annotation Tool (VIA)
+
+-----------------------------------------------------------------
+To build full version of VIA you need Borland C++ Builder 6.
+the tool uses : 
+m2v_vfapi for MPEG1/2 video support, 
+GraphicsEx library for loading of additional image file formats,
+Graphics32 image library (http://graphics32.org)
+
+see the file 'INSTALL' for additional information
+
+Directory structure:
+-----------------------------------------------------------------
+/			source code
+bin			final compiled executable (.EXE)
+GraphicEx	GraphicsEx source files (image support)
+out			Intermediate output (.OBJ files)
+
+-----------------------------------------------------------------
+VIA homepage is at http://mklab.iti.gr/via
+
+VIA is GPL licensed, see the file 'gpl-3.0.txt' for the licence 
+conditions.
+-----------------------------------------------------------------
