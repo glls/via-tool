@@ -18,8 +18,6 @@ GraphicEx	GraphicsEx source files (image support)
 out			Intermediate output (.OBJ files)
 
 -----------------------------------------------------------------
-VIA homepage is at http://mklab.iti.gr/via
-
 VIA is GPL licensed, see the file 'gpl-3.0.txt' for the licence 
 conditions.
 -----------------------------------------------------------------
